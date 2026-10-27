@@ -1,0 +1,20 @@
+{
+  "name": "ipmi-smc-poc",
+  "version": "0.1.0",
+  "description": "Supermicro BMC(Redfish + IPMI) 수집 호환성 PoC — The.DVC 의 Dell iDRAC 수집과 같은 항목을 읽어 비교한다",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.6"
+  },
+  "bin": {
+    "smc-poc": "bin/smc-poc.js"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "mock": "node mock/server.js",
+    "cli": "node bin/smc-poc.js",
+    "test": "node --test test/*.test.js"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,4 @@
+[
+  { "name": "smc-x13-01", "role": "smc", "host": "10.10.2.31", "username": "ADMIN", "passwordEnv": "SMC_PASS" },
+  { "name": "dell-r750-ref", "role": "dell", "host": "10.10.1.21", "username": "root", "passwordEnv": "DELL_PASS" }
+]

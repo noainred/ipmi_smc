@@ -1,0 +1,6 @@
+# 실행 결과·등록 서버(비밀번호 포함) — 절대 커밋하지 않는다
+data/
+out/
+node_modules/
+.DS_Store
+*.log
